@@ -80,7 +80,7 @@ function autofunc(){
     if(temperature>24){
         tempvalue = (temperature + 30) / 3;
     }
-    else tempvalue = (temperature + 30) / 2;
+    else tempvalue = (temperature + 25) / 2;
     currtemp.innerHTML = tempvalue.toFixed(1) + "°";
     plus.disabled = true;
     minus.disabled = true;
